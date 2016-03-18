@@ -1,0 +1,188 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0, user-scalable=no">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Language" content="zh-cn" />
+<link type="text/css" rel="stylesheet" href="css/zdz.css">
+
+<script type="text/javascript">
+
+function onPageLoad() {
+	zdztool.full();
+	zdztool.click("menuBtn",   onShowMenu);
+	zdztool.href("singleBtn",  "single.html");
+	zdztool.href("layoutBtn",  "layout.xml");
+	zdztool.href("formBtn",    "form.html");
+	zdztool.href("dlgBtn",     "dialog.html");
+	zdztool.href("swipeBtn",   "pages.html");
+	zdztool.href("openBtn",    "views.html");
+	zdztool.href("sideBtn",    "side.html");
+	zdztool.href("callBtn",    "call.html");
+	zdztool.href("dataBtn",    "data.html");
+	zdztool.href("wifiBtn",    "wifi.html");
+	zdztool.href("pluginBtn",  "plugin.html");
+}
+function onShowMenu() {
+	zdztool.showLeftNav();
+}
+</script>
+</head>
+<body class="page_white">
+
+<div class="header">
+	<span class="left"><img id="menuBtn" src="images/menu.png"/></span>
+	<span class="right"></span>
+	<h1>移动HTML框架</h1>
+</div>
+
+<div class="pages"><div class="pages-content">
+	<div class="page">
+		<div class="content list">
+			<p></p>
+			<p class="title"><img src="images/zdz.png"/></p>
+			<p class="info">北京掌舵者科技有限公司</p>
+			<ul>
+				<li class="blank"></li>
+				<li class="section"><span>常用组件</span></li>
+				<li class="line" id="singleBtn">
+					<img class="icon" src="images/home.png"/>
+					<span class="field">单页面</span>
+					<img class="more" src="images/more.png"/>
+				</li>
+				<li class="line" id="layoutBtn">
+					<img class="icon" src="images/home.png"/>
+					<span class="field">混合页面</span>
+					<img class="more" src="images/more.png"/>
+				</li>
+				<li class="line" id="formBtn">
+					<img class="icon" src="images/home.png"/>
+					<span class="field">表单</span>
+					<img class="more" src="images/more.png"/>
+				</li>
+				<li class="line" id="dlgBtn">
+					<img class="icon" src="images/home.png"/>
+					<span class="field">对话框</span>
+					<img class="more" src="images/more.png"/>
+				</li>
+				<li class="blank"></li>
+			</ul>
+		</div>
+	</div>
+	<div class="page">
+		<div class="content list">
+			<p></p>
+			<p class="title"><img src="images/zdz.png"/></p>
+			<p class="info">北京掌舵者科技有限公司</p>
+			<ul>
+				<li class="blank"></li>
+				<li class="section"><span>常用事件</span></li>
+				<li class="line" id="swipeBtn">
+					<img class="icon" src="images/home.png"/>
+					<span class="field">页面切换</span>
+					<img class="more" src="images/more.png"/>
+				</li>
+				<li class="line" id="openBtn">
+					<img class="icon" src="images/home.png"/>
+					<span class="field">多视图切换</span>
+					<img class="more" src="images/more.png"/>
+				</li>
+				<li class="line" id="sideBtn">
+					<img class="icon" src="images/home.png"/>
+					<span class="field">侧边菜单</span>
+					<img class="more" src="images/more.png"/>
+				</li>
+				<li class="line" id="callBtn">
+					<img class="icon" src="images/home.png"/>
+					<span class="field">调用服务器</span>
+					<img class="more" src="images/more.png"/>
+				</li>
+				<li class="blank"></li>
+			</ul>
+		</div>
+	</div>
+	<div class="page">
+		<div class="content list">
+			<p></p>
+			<p class="title"><img src="images/zdz.png"/></p>
+			<p class="info">北京掌舵者科技有限公司</p>
+			<ul>
+				<li class="blank"></li>
+				<li class="section"><span>本地数据</span></li>
+				<li class="line" id="dataBtn">
+					<img class="icon" src="images/home.png"/>
+					<span class="field">个人数据</span>
+					<img class="more" src="images/more.png"/>
+				</li>
+				<li class="line" id="wifiBtn">
+					<img class="icon" src="images/home.png"/>
+					<span class="field">wifi列表</span>
+					<img class="more" src="images/more.png"/>
+				</li>
+				<li class="blank"></li>
+			</ul>
+		</div>
+	</div>
+	<div class="page">
+		<div class="content list">
+			<p></p>
+			<p class="title"><img src="images/zdz.png"/></p>
+			<p class="info">北京掌舵者科技有限公司</p>
+			<ul>
+				<li class="blank"></li>
+				<li class="section"><span>插件扩展</span></li>
+				<li class="line" id="pluginBtn">
+					<img class="icon" src="images/home.png"/>
+					<span class="field">自定义插件</span>
+					<img class="more" src="images/more.png"/>
+				</li>
+				<li class="blank"></li>
+			</ul>
+		</div>
+	</div>
+</div></div>
+
+<div class="foot">
+	<div class="tabbar">
+        <a class="item">
+            <div class="icon"><img src="images/home.png"></div>
+            <p class="label">组件</p>
+        </a>
+        <a class="item">
+            <div class="icon"><img src="images/user.png"></div>
+            <p class="label">事件</p>
+        </a>
+        <a class="item">
+            <div class="icon"><img src="images/work.png"></div>
+            <p class="label">数据</p>
+        </a>
+        <a class="item">
+            <div class="icon"><img src="images/setting.png"></div>
+            <p class="label">扩展</p>
+        </a>
+    </div>
+</div>
+
+<div class="nav nav-left">
+	<div class="nav-content">
+		<p></p>
+		<p class="title"><img src="images/zdz.png"/></p>
+		<p class="info">北京掌舵者科技有限公司</p>
+		<ul>
+			<li class="blank"></li>
+			<li class="menu" id="callBtn">
+				<img src="images/home.png"/>菜单1
+			</li>
+			<li class="menu" id="callBtn">
+				<img src="images/home.png"/>菜单2
+			</li>
+			<li class="blank"></li>
+		</ul>
+	</div>
+</div>
+
+<script type="text/javascript" src="js/zdz.js"></script>
+</body>
+</html>
