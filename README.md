@@ -7,5 +7,8 @@ H5 mobile framework<br/>
 # 开发文档
 html.docx<br/>
 
+# 安装包
+ZDZDemoHtml.apk<br/>
+
 # 官网地址
-http://www.zdzsoft.com/case/html.htm
+http://www.zdzsoft.com/case/html.htm<br/>
