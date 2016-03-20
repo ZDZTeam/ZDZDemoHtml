@@ -1,10 +1,10 @@
 package com.zdzsoft.example.html;
 
-import android.os.Bundle;
-
-import com.zdzsoft.lib.ui.activity.ZDZWebLauncher;
-import com.zdzsoft.lib.ui.anim.AnimClearBackEvent;
+import com.zdzsoft.lib.ui.ZDZWebLauncher;
 import com.zdzsoft.lib.ui.anim.ZDZAnim;
+import com.zdzsoft.lib.ui.anim.AnimClearBackEvent;
+
+import android.os.Bundle;
 
 /**
  * 主入口
