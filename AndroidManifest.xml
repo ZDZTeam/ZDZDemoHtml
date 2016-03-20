@@ -43,7 +43,7 @@
     <uses-feature android:name="android.hardware.camera" />
 
     <application
-        android:name="com.zdzsoft.lib.ui.activity.ZDZApplication"
+        android:name="com.zdzsoft.lib.ui.ZDZApplication"
         android:allowBackup="true"
         android:largeHeap="true"
         android:hardwareAccelerated="true"
