@@ -11,7 +11,7 @@ html.docx<br/>
 ZDZDemoHtml.apk<br/>
 
 # 官网地址
-http://www.zdzsoft.com/case/html.htm<br/>
+http://www.zdzsoft.com/open/open.html<br/>
 
 # 演示案例
 ZDZDemoMap  百度地图查询<br/>
